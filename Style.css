@@ -1,0 +1,81 @@
+.navbar {
+  background-color: rgba(255, 255, 255, 0.099);
+}
+.navbar-name {
+  padding: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: xx-large;
+  color: white;
+  font-family: "Mukta", sans-serif;
+  cursor: default;
+}
+.d-flex {
+  padding: 1rem;
+}
+button#submit {
+  font-weight: 700;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 5px;
+}
+button#submit:hover {
+  background-color: aliceblue;
+}
+.container > h1 {
+  font-weight: 900;
+  font-size: 70px;
+  padding-bottom: 2%;
+  font-family: "Mukta", sans-serif;
+  cursor: default;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.099);
+}
+.card-header > h4 {
+  font-weight: 600;
+}
+#sunsetimg {
+  height: 75px;
+  margin-bottom: 13px;
+}
+.weather-details > li {
+  margin-top: 15px;
+  list-style: none;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: default;
+}
+ul.weather-details {
+  padding: 0px 0px 0px;
+}
+.units {
+  color: gray;
+  font-size: 30px;
+  cursor: default;
+}
+.back-video {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  bottom: 0px;
+  z-index: -1;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .back-video {
+    height: 180vh;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .navbar-name {
+    font-size: large;
+  }
+  .container > h1 {
+    font-size: xx-large;
+  }
+}
